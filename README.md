@@ -69,17 +69,22 @@ src/
 ## Ejecución
 
 1. Clonar el repositorio:
+   
 git clone https://github.com/Daniel-Cochachi/Daniel-Cochachi-Sistema-Ecommerce-basico-Java-Spring-boot-Back-end.git
 
 
 -Configurar la base de datos en application.properties:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/ventas_basico_db
+
 spring.datasource.username= tu usuario
+
 spring.datasource.password= tu contraseña
 
 spring.jpa.hibernate.ddl-auto=update
+
 spring.jpa.show-sql=true
+
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 
 -Ejecutar la aplicación:
@@ -93,17 +98,25 @@ localhost:8080
 👤 Usuarios
 
 GET /api/users
+
 GET /api/users/{id}
+
 POST /api/users
+
 PUT /api/users/{id}
+
 DELETE /api/users/{id}
 
 🛒 Productos
 
 GET /api/products
+
 GET /api/products/{id}
+
 POST /api/products
+
 PUT /api/products/{id}
+
 DELETE /api/products/{id}
 
 🧪 Pruebas
