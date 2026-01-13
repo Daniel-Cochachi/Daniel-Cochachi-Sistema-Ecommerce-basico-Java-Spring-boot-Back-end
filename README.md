@@ -8,8 +8,9 @@ El proyecto está enfocado en demostrar fundamentos de **desarrollo backend**, c
 
 La aplicación permite gestionar los elementos principales de un ecommerce:
 
-- Gestión de **usuarios**
-- Gestión de **productos**
+- Gestión de **cliente**
+- Gestión de **ventas-detalleVenta**
+- Gestión de **productos-categoria**
 - Operaciones **CRUD** (Crear, Leer, Actualizar, Eliminar)
 - Comunicación mediante **API REST**
 
@@ -23,6 +24,7 @@ Sirve como base para seguir agregando funcionalidades y mejoras.
 - **Spring Data JPA**
 - **Maven**
 - **Base de datos relacional** (MySQL / H2 / PostgreSQL según configuración)
+- use MYSQL
 
 
 ## Arquitectura
