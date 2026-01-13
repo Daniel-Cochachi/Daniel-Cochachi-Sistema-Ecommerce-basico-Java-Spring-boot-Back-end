@@ -76,16 +76,13 @@ git clone https://github.com/Daniel-Cochachi/Daniel-Cochachi-Sistema-Ecommerce-b
 -Configurar la base de datos en application.properties:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/ventas_basico_db
-
 spring.datasource.username= tu usuario
-
 spring.datasource.password= tu contraseña
 
 spring.jpa.hibernate.ddl-auto=update
-
 spring.jpa.show-sql=true
-
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+
 
 -Ejecutar la aplicación:
 
