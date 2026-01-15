@@ -90,32 +90,6 @@ mvn clean spring-boot:run
 
 localhost:8080
 
-
-Endpoints principales
-Usuarios
-
-GET /api/users
-
-GET /api/users/{id}
-
-POST /api/users
-
-PUT /api/users/{id}
-
-DELETE /api/users/{id}
-
-Productos
-
-GET /api/products
-
-GET /api/products/{id}
-
-POST /api/products
-
-PUT /api/products/{id}
-
-DELETE /api/products/{id}
-
 Pruebas
 
 Los endpoints pueden probarse con herramientas como Postman o Insomnia.
